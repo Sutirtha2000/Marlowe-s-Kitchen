@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sutirtha Nath" />
+    <meta name="description" content="The official website for Marlowe's Kitchen" />
+    <title>Marlowe's Kitchen</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header_h1">🌮 Marlowe's Kitchen 🌮</h1>
+      <nav class="header_nav">
+        <ul class="header_ul">
+          <li><a href="/">Home</a></li>
+          <li><a href="hours.html">Hours & Location</a></li>
+          <li><a href="/#lunch">Lunch</a></li>
+          <li><a href="/#dinner">Dinner</a></li>
+          <li><a href="/#dessert">Dessert</a></li>
+          <li><a href="/#cocktail">Cocktail</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <setion class="hero">
+      <figure>
+        <img
+          src="img/contact.jpg"
+          alt="This is image"
+          height="667"
+          width="1000"
+          title="Menu image"
+        />
+        <figcaption class="offscreen">Marlowe's Menu</figcaption>
+      </figure>
+    </setion>
+    <main class="main">
+      <article class="contact_article">
+        <h2 class="main_h2">Our Contact Form: </h2>
+        <form action="https://send.org/get" method="get">
+          <fieldset class="contact_fieldset">
+            <legend>Send Us a Message</legend>
+            <p class="contact_name">
+              <label for="name" id="name" class="contact_label">Name: </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="contact_input"
+                placeholder="Enter your name"
+              />
+            </p>
+            <p class="contact_email">
+              <label for="email" id="email" class="contact_label"
+                >Email:
+              </label>
+              <input
+                type="email"
+                id="email"
+                class="contact_input"
+                placeholder="Enter your email"
+              />
+            </p>
+            <p class="contact_textarea">
+              <label for="message" class="contact_label">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                class="contact_textarea"
+                rows="10"
+                placeholder="Enter your message"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button class="contact_button" type="submit">Submit</button>
+          <button class="contact_button" type="reset">Reset</button>
+        </form>
+        <p class="back">
+          <a href="#">Back to Top ↑</a>
+        </p>
+      </article>
+    </main>
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; <time class="year"></time></span>
+        <span class="nowrap">Marlowe's Kitchen</span>
+      </p>
+    </footer>
+  </body>
+</html>

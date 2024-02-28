@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 0;
+}
+
+input,
+textarea, button {
+    font: inherit;
+}
+
+.nowrap {
+
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -1000000px;
+}
+
+.back {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: clamp(1rem, 2.2vh, 1.5rem);
+    font-family: "Fugaz One", sans-serif;
+    background-color: azure;
+    background-image: linear-gradient(to left, rgb(241, 246, 186), antiquewhite);
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(48, 94%, 86%);
+    max-width: 1000px;
+    margin: 0 auto;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    box-shadow: 0 0 10px darkslategray;
+}
+
+h1, h2, h3 {
+    font-family: "Fugaz One", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h2, h3 {
+    margin-bottom: 1em;
+    color:rgb(236, 162, 65);
+}
+
+p {
+    line-height: 1.1;
+    padding-bottom: 0.8rem;
+}
+
+a:any-link {
+    color:rgb(85, 84, 84);
+    text-decoration: none;
+}
+
+a:hover, a:focus-visible {
+    color: firebrick;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.header_h1 {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1rem;
+    color:chocolate;
+}
+
+.header_nav {
+    border-top: 1px solid black;
+    padding-top: 0.5rem;
+    background-color: burlywood;
+    font-weight: bold;
+    box-shadow: 0 6px 5px -5px #333;
+}
+
+.header_ul {
+    list-style-type: none;
+    padding: 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    background-color: bisque;
+    padding: 0.5rem;
+    color: chocolate;
+    border-top: 1px solid black;
+}
+
+.back a {
+    text-decoration: underline;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* menu */
+
+.main_h2 {
+    text-align: center;
+    color: coral;
+}
+
+.section {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 0.8rem;
+    color : brown;
+}
+
+.main_article {
+    scroll-margin-top: 6.5rem;
+    margin: 1.5rem;
+}
+
+.main_article:last-child {
+    min-height: calc(100vh - 20rem);
+}
+
+/* hours */
+
+.address p {
+    text-align: center;
+}
+
+.address a {
+    display: block;
+    padding-top: 1rem;
+}
+
+.address a::before {
+    content: "Call us: ";
+}
+
+.week {
+    text-align: center;
+}
+
+.main dl {
+    text-align: center;
+}
+
+/* Contact us */
+
+.contact_article {
+    padding: 1rem;
+}
+
+.contact_fieldset {
+    border: none;
+}
+
+.contact_label {
+    display: block;
+}
+
+.contact_input,
+.contact_textarea {
+    width: 100%;
+    border-radius: 15px;
+    padding: 0.5em;
+    border-width: 2px;
+}
+
+.contact_button {
+    background-color: cadetblue;
+    padding: 0.5em;
+    border-radius: 20px;
+    color:beige;
+}

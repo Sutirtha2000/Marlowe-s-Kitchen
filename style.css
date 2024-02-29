@@ -38,6 +38,7 @@ html {
     font-size: clamp(1rem, 2.2vh, 1.5rem);
     font-family: "Fugaz One", sans-serif;
     background-color: azure;
+    scroll-padding-top: 120px;
     background-image: linear-gradient(to left, rgb(241, 246, 186), antiquewhite);
 }
 
